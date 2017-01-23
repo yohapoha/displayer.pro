@@ -27,19 +27,30 @@
 }
 .shop-group-info-filter {
   width: 100%;
+  padding-top: 15px;
   margin-top: 30px;
   border-top: 1px solid #ebebeb;
   float: left;
 }
-.shop-group-info-filter__name,
-.shop-group-info-filter__value {
+.shop-group-info-filter-block {
   width: 100%;
-  margin-top: 30px;
+  padding: 15px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  float: left;
+  transition: 0.3s;
+}
+.shop-group-info-filter-block:hover {
+  background-color: #ebebeb;
+}
+.shop-group-info-filter-block__name,
+.shop-group-info-filter-block__value {
+  width: 100%;
   text-align: center;
   float: left;
 }
-.shop-group-info-filter__value {
+.shop-group-info-filter-block__value {
   margin-top: 5px;
-  font-size: 24px;
+  font-size: 20px;
   color: #329696;
 }
