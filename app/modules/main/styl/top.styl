@@ -1,0 +1,46 @@
+@import "colors.styl"
+
+.top {
+    width 100%
+    border-bottom 1px solid $border_color
+    float left
+}
+.top-logo {
+    width 334px
+    height 60px
+    margin 30px 50px
+    float left
+}
+.top-logo__image {
+    background-image url("/img/logo.png");
+    width 334px
+    height 60px
+}
+.top-menu {
+    width 100%
+    margin-bottom 10px
+    float left
+}
+.top-menu__link {
+    background-color #fff
+    padding 5px 15px
+    margin-left 30px
+    border-radius 5px
+    color $text_color
+    transition .2s
+    float left
+}
+.top-menu__link_select {
+    @extend .top-menu__link
+    background-color $menu_select_color
+}
+.top-menu__link:hover {
+    background-color $menu_hover_color
+}
+.top-menu__link_select:hover {
+    background-color $menu_select_hover_color
+    color #fff
+}
+.top-menu__link_select:visited {
+    color #fff
+}

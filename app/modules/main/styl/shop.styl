@@ -1,0 +1,47 @@
+@import "colors.styl"
+
+.shop {
+    width 100%
+    float left
+}
+.shop-group {
+    width 100%
+    padding 30px 0
+    border-bottom 1px solid $border_color
+    float left
+}
+.shop-group-info {
+    width 300px
+    padding 30px
+    border-right 1px solid $border_color
+    float left
+}
+.shop-group-info__brand {
+    width 100%
+    font-size 36px
+    text-align center
+    float left
+}
+.shop-group-info__comparsion {
+    width 100%
+    text-align center
+    float left
+}
+.shop-group-info-filter {
+    width 100%
+    margin-top 30px
+    border-top 1px solid $border_color
+    float left
+}
+.shop-group-info-filter__name {
+    width 100%
+    margin-top 30px
+    text-align center
+    float left
+}
+.shop-group-info-filter__value {
+    @extend .shop-group-info-filter__name
+    margin-top 5px
+    font-size 24px
+    color $link_color
+}

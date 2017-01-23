@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>displayer.pro</title>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- build:css css/vendors.css -->
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:css css/main.css -->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/css/main/styl/main.css">
+    <link rel="stylesheet" href="/css/main/styl/top.css">
+    <link rel="stylesheet" href="/css/main/styl/shop.css">
+    <!-- endinject -->
+	<!-- endbuild -->
+	<!-- build:js js/vendors.js -->
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/limit.js/limit.js"></script>
+	<script src="bower_components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+</head>
+<body>
+    <div class="top">
+        <div class="top-logo">
+            <div class="top-logo__image"></div>
+        </div>
+		<div class="top-menu">
+			<a href="#main" class="top-menu__link_select">Главная</a>
+			<a href="#comparsion" class="top-menu__link">Сравнение дисплеев</a>
+			<a href="#paymentdelivery" class="top-menu__link">Оплата и доставка</a>
+			<a href="#warranty" class="top-menu__link">Гарантия</a>
+			<a href="#contacts" class="top-menu__link">Контакты</a>
+		</div>
+    </div>
+	<div class="content">
+		<div class="shop">
+			<div class="shop-group">
+				<div class="shop-group-info">
+					<div class="shop-group-info__brand">Apple</div>
+					<a href="#comparsion/apple" class="shop-group-info__comparsion link">Обзор и сравнение дисплеев</a>
+					<div class="shop-group-info-filter">
+						<div class="shop-group-info-filter__name">Тип устройства</div>
+						<div class="shop-group-info-filter__value">Все устройства</div>
+						<div class="shop-group-info-filter__name">Наличие на складе</div>
+						<div class="shop-group-info-filter__value">В наличии</div>
+						<div class="shop-group-info-filter__name">Производитель LCD</div>
+						<div class="shop-group-info-filter__value">Все производители</div>
+						<div class="shop-group-info-filter__name">Производитель стекла</div>
+						<div class="shop-group-info-filter__value">Все производители</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- build:js js/main.js -->
+	<!-- inject:js -->
+    <!-- endinject -->
+	<!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #003c5a;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #003c5a;
+}
+.link {
+  color: #329696;
+}
+.link:hover {
+  text-decoration: underline;
+}
