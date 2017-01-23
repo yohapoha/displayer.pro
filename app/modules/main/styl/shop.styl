@@ -11,7 +11,7 @@
     float left
 }
 .shop-group-info {
-    width 300px
+    width 250px
     padding 30px
     border-right 1px solid $border_color
     float left
@@ -29,21 +29,19 @@
 }
 .shop-group-info-filter {
     width 100%
-    padding-top 15px
-    margin-top 30px
-    border-top 1px solid $border_color
     float left
 }
 .shop-group-info-filter-block {
     width 100%
-    padding 15px 0
-    border-radius 10px
+    padding 10px 0
+    margin 5px 0
+    border-radius 7px
     cursor pointer
     float left
     transition .3s
 }
 .shop-group-info-filter-block:hover {
-    background-color #ebebeb
+    background-color $menu_hover_color
 }
 .shop-group-info-filter-block__name {
     width 100%
@@ -53,6 +51,6 @@
 .shop-group-info-filter-block__value {
     @extend .shop-group-info-filter-block__name
     margin-top 5px
-    font-size 20px
+    font-size 18px
     color $link_color
 }

@@ -9,7 +9,7 @@
   float: left;
 }
 .shop-group-info {
-  width: 300px;
+  width: 250px;
   padding: 30px;
   border-right: 1px solid #ebebeb;
   float: left;
@@ -27,15 +27,13 @@
 }
 .shop-group-info-filter {
   width: 100%;
-  padding-top: 15px;
-  margin-top: 30px;
-  border-top: 1px solid #ebebeb;
   float: left;
 }
 .shop-group-info-filter-block {
   width: 100%;
-  padding: 15px 0;
-  border-radius: 10px;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 7px;
   cursor: pointer;
   float: left;
   transition: 0.3s;
@@ -51,6 +49,6 @@
 }
 .shop-group-info-filter-block__value {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #329696;
 }
