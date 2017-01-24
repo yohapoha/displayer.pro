@@ -17,6 +17,11 @@ a:active {
 .menu:active {
   color: #006496;
 }
+.menu_select,
+.menu_select:visited,
+.menu_select:active {
+  color: #fff;
+}
 .link:hover {
   text-decoration: underline;
 }
