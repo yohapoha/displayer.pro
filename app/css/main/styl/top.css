@@ -19,26 +19,24 @@
   margin-bottom: 10px;
   float: left;
 }
-.top-menu__link,
-.top-menu__link_select {
+.top-menu__button,
+.top-menu__button_select {
   background-color: #fff;
   padding: 5px 15px;
   margin-left: 30px;
   border-radius: 5px;
-  color: #003c5a;
+  color: #006496;
   transition: 0.2s;
   float: left;
 }
-.top-menu__link_select {
-  background-color: #006496;
-}
-.top-menu__link:hover {
+.top-menu__button:hover {
   background-color: #f4f4f4;
 }
-.top-menu__link_select:hover {
-  background-color: #0078b4;
-  color: #fff;
+.top-menu__button_select {
+  background-color: #006496;
+  color: #006496;
 }
-.top-menu__link_select:visited {
+.top-menu__button_select:hover {
+  background-color: #0078b4;
   color: #fff;
 }

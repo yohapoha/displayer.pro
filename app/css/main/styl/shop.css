@@ -39,7 +39,7 @@
   transition: 0.3s;
 }
 .shop-group-info-filter-block:hover {
-  background-color: #f4f4f4;
+  background-color: $menu_hover_color;
 }
 .shop-group-info-filter-block__name,
 .shop-group-info-filter-block__value {
