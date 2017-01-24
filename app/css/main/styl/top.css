@@ -21,6 +21,7 @@
 }
 .top-menu__link,
 .top-menu__link_select {
+  background-color: #fff;
   padding: 5px 15px;
   margin-left: 30px;
   border-radius: 5px;
@@ -29,13 +30,13 @@
   float: left;
 }
 .top-menu__link_select {
-  background-color: #003c5a;
+  background-color: #006496;
 }
 .top-menu__link:hover {
   background-color: #f4f4f4;
 }
 .top-menu__link_select:hover {
-  background-color: #329696;
+  background-color: #0078b4;
   color: #fff;
 }
 .top-menu__link_select:visited {

@@ -21,25 +21,24 @@
     margin-bottom 10px
     float left
 }
-.top-menu__link {
+.top-menu__button {
+    background-color $menu_button_color
     padding 5px 15px
     margin-left 30px
     border-radius 5px
-    color $text_color
+    color $menu_button_text_color
     transition .2s
     float left
 }
-.top-menu__link_select {
-    @extend .top-menu__link
-    background-color $menu_select_color
+.top-menu__button:hover {
+    background-color $menu_button_hover_color
 }
-.top-menu__link:hover {
-    background-color $menu_hover_color
+.top-menu__button_select {
+    @extend .top-menu__button
+    background-color $menu_button_select_color
+    color $menu_button_select_text_color
 }
-.top-menu__link_select:hover {
-    background-color $menu_select_hover_color
-    color $text_hover_color
-}
-.top-menu__link_select:visited {
+.top-menu__button_select:hover {
+    background-color $menu_button_select_hover_color
     color $text_hover_color
 }

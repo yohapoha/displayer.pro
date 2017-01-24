@@ -156,6 +156,10 @@
   border-radius: 5px;
   color: #fff;
   text-align: center;
-  transition: 0.2s;
   float: left;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.element__buy:hover {
+  background-color: #28aaaa;
 }
