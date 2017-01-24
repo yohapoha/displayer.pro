@@ -39,7 +39,7 @@
   transition: 0.3s;
 }
 .shop-group-info-filter-block:hover {
-  background-color: #ebebeb;
+  background-color: #f4f4f4;
 }
 .shop-group-info-filter-block__name,
 .shop-group-info-filter-block__value {
@@ -51,4 +51,107 @@
   margin-top: 5px;
   font-size: 18px;
   color: #329696;
+}
+.element {
+  width: 260px;
+  margin: 50px;
+  border-right: 1px solid #ebebeb;
+  float: left;
+}
+.element-phone {
+  width: 88px;
+  height: 158px;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  float: left;
+}
+.element-phone__speaker {
+  background-color: #cbcbcb;
+  width: 18px;
+  height: 1px;
+  margin: 20px 35px 10px;
+  float: left;
+}
+.element-phone-info {
+  width: 100%;
+  height: 87px;
+  float: left;
+}
+.element-phone-info__name {
+  display: table;
+  width: 100%;
+  height: 57px;
+}
+.element-phone-info__name_value {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.element-phone-info-existence {
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+.element-phone-info-existence__value {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  color: #6b6b6b;
+  float: left;
+}
+.element-phone-info-existence-quantity {
+  width: 70px;
+  height: 10px;
+  margin: 0 9px;
+  float: left;
+}
+.element-phone-info-existence-quantity__circle,
+.element-phone-info-existence-quantity__circle_free {
+  background-color: #329696;
+  width: 8px;
+  height: 8px;
+  margin: 3px 3px 0;
+  border-radius: 4px;
+  float: left;
+}
+.element-phone-info-existence-quantity__circle_free {
+  background-color: #cbcbcb;
+}
+.element-phone__button {
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  margin: 10px 35px;
+  float: left;
+}
+.element-info {
+  background-color: #f00;
+  width: 149px;
+  height: 110px;
+  margin: 10px;
+  float: left;
+}
+.element-info__value,
+.element-info__price {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+}
+.element-info__price {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.element__buy {
+  display: block;
+  padding: 5px 15px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: #003c5a;
+  transition: 0.2s;
+  float: left;
 }

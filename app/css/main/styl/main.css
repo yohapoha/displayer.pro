@@ -10,10 +10,12 @@ a,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #003c5a;
-}
-.link {
   color: #329696;
+}
+.menu,
+.menu:visited,
+.menu:active {
+  color: #003c5a;
 }
 .link:hover {
   text-decoration: underline;
