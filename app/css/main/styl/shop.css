@@ -53,7 +53,8 @@
   color: #329696;
 }
 .element {
-  width: 260px;
+  width: 259px;
+  height: 160px;
   margin: 50px;
   border-right: 1px solid #ebebeb;
   float: left;
@@ -61,12 +62,12 @@
 .element-phone {
   width: 88px;
   height: 158px;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #003c5a;
   border-radius: 10px;
   float: left;
 }
 .element-phone__speaker {
-  background-color: #cbcbcb;
+  background-color: #003c5a;
   width: 18px;
   height: 1px;
   margin: 20px 35px 10px;
@@ -123,35 +124,38 @@
   background-color: #fff;
   width: 16px;
   height: 16px;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #003c5a;
   border-radius: 10px;
   margin: 10px 35px;
   float: left;
 }
 .element-info {
-  background-color: #f00;
   width: 149px;
-  height: 110px;
+  height: 70px;
   margin: 10px;
   float: left;
 }
-.element-info__value,
-.element-info__price {
+.element-info__value {
   width: 100%;
   text-align: center;
   font-size: 12px;
   float: left;
 }
-.element-info__price {
-  margin: 10px 0;
-  font-size: 14px;
+.element__price {
+  width: 149px;
+  height: 20px;
+  margin: 0 10px 10px;
+  text-align: center;
+  float: left;
 }
 .element__buy {
-  display: block;
-  padding: 5px 15px;
-  margin-left: 30px;
+  background-color: #329696;
+  width: 80px;
+  padding: 5px 0;
+  margin: 0 44px;
   border-radius: 5px;
-  color: #003c5a;
+  color: #fff;
+  text-align: center;
   transition: 0.2s;
   float: left;
 }

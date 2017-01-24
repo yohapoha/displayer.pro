@@ -56,7 +56,8 @@
 }
 
 .element {
-    width 260px
+    width 259px
+    height 160px
     margin 50px
     border-right 1px solid $border_color
     float left
@@ -68,6 +69,7 @@
     border-radius 10px
     float left
 }
+
 .element-phone__speaker {
     background-color $element_border_color
     width 18px
@@ -132,9 +134,8 @@
     float left
 }
 .element-info {
-    background-color red
     width 149px
-    height 110px
+    height 70px
     margin 10px
     float left
 }
@@ -144,17 +145,21 @@
     font-size 12px
     float left
 }
-.element-info__price {
-    @extend .element-info__value
-    margin 10px 0
-    font-size 14px
+.element__price {
+    width 149px
+    height 20px
+    margin 0 10px 10px
+    text-align center
+    float left
 }
 .element__buy {
-    display block
-    padding 5px 15px
-    margin-left 30px
+    background-color $button_color
+    width 80px
+    padding 5px 0
+    margin 0 44px
     border-radius 5px
-    color $text_color
+    color $button_text_color
+    text-align center
     transition .2s
     float left
 }
