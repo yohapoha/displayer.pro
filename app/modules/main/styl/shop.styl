@@ -7,13 +7,13 @@
 .shop-group {
     width 100%
     padding 30px 0
-    border-bottom 1px solid $border_color
+    border-bottom 1px solid $lines_color
     float left
 }
 .shop-group-info {
     width 250px
     padding 30px
-    border-right 1px solid $border_color
+    border-right 1px solid $lines_color
     float left
 }
 .shop-group-info__brand {
@@ -32,6 +32,7 @@
     float left
 }
 .shop-group-info-filter-block {
+    background-color $filer_block_color
     width 100%
     padding 10px 0
     margin 5px 0
@@ -41,7 +42,7 @@
     transition .3s
 }
 .shop-group-info-filter-block:hover {
-    background-color $menu_hover_color
+    background-color $filer_block_hover_color
 }
 .shop-group-info-filter-block__name {
     width 100%
@@ -52,14 +53,14 @@
     @extend .shop-group-info-filter-block__name
     margin-top 5px
     font-size 18px
-    color $link_color
+    color $filer_block_value_color
 }
 
 .element {
     width 259px
     height 160px
     margin 50px
-    border-right 1px solid $border_color
+    border-right 1px solid $lines_color
     float left
 }
 .element-phone {
@@ -113,7 +114,7 @@
     float left
 }
 .element-phone-info-existence-quantity__circle {
-    background-color $quantity_color
+    background-color $quantity_circle_color
     width 8px
     height 8px
     margin 3px 3px 0
@@ -122,10 +123,9 @@
 }
 .element-phone-info-existence-quantity__circle_free {
     @extend .element-phone-info-existence-quantity__circle
-    background-color $quantity_free_color
+    background-color $quantity_circle_free_color
 }
 .element-phone__button {
-    background-color $background_color
     width 16px
     height 16px
     border 1px solid $element_border_color

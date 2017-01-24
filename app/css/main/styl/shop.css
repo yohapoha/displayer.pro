@@ -30,6 +30,7 @@
   float: left;
 }
 .shop-group-info-filter-block {
+  background-color: #fff;
   width: 100%;
   padding: 10px 0;
   margin: 5px 0;
@@ -39,7 +40,7 @@
   transition: 0.3s;
 }
 .shop-group-info-filter-block:hover {
-  background-color: $menu_hover_color;
+  background-color: #f4f4f4;
 }
 .shop-group-info-filter-block__name,
 .shop-group-info-filter-block__value {
@@ -121,7 +122,6 @@
   background-color: #cbcbcb;
 }
 .element-phone__button {
-  background-color: #fff;
   width: 16px;
   height: 16px;
   border: 1px solid #003c5a;

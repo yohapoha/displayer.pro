@@ -34,9 +34,8 @@
 }
 .top-menu__button_select {
   background-color: #006496;
-  color: #006496;
+  color: #fff;
 }
 .top-menu__button_select:hover {
   background-color: #0078b4;
-  color: #fff;
 }
