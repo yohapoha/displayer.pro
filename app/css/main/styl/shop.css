@@ -60,7 +60,8 @@
   border-right: 1px solid #ebebeb;
   float: left;
 }
-.element-phone {
+.element-phone,
+.element-table {
   width: 88px;
   height: 158px;
   border: 1px solid #003c5a;
@@ -74,54 +75,26 @@
   margin: 20px 35px 10px;
   float: left;
 }
-.element-phone-info {
+.element-phone-info,
+.element-table-info {
   width: 100%;
   height: 87px;
   float: left;
 }
-.element-phone-info-name {
+.element-phone-info-name,
+.element-table-info-name {
   display: table;
   width: 100%;
   height: 57px;
 }
-.element-phone-info-name__value {
+.element-phone-info-name__value,
+.element-table-info-name__value {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.element-phone-info-existence {
-  width: 100%;
-  height: 30px;
-  float: left;
-}
-.element-phone-info-existence__value {
-  width: 100%;
-  height: 15px;
-  margin-bottom: 5px;
-  font-size: 12px;
-  text-align: center;
-  color: #6b6b6b;
-  float: left;
-}
-.element-phone-info-existence-quantity {
-  width: 70px;
-  height: 10px;
-  margin: 0 9px;
-  float: left;
-}
-.element-phone-info-existence-quantity__circle,
-.element-phone-info-existence-quantity__circle_free {
-  background-color: #329696;
-  width: 8px;
-  height: 8px;
-  margin: 3px 3px 0;
-  border-radius: 4px;
-  float: left;
-}
-.element-phone-info-existence-quantity__circle_free {
-  background-color: #cbcbcb;
-}
-.element-phone__button {
+.element-phone__button,
+.element-table__button {
   width: 16px;
   height: 16px;
   border: 1px solid #003c5a;
@@ -162,4 +135,51 @@
 }
 .element__buy:hover {
   background-color: #28aaaa;
+}
+.element-table {
+  width: 118px;
+}
+.element-table__speaker {
+  width: 2px;
+  height: 2px;
+  margin: 10px;
+  border: 1px solid #003c5a;
+  border-radius: 2px;
+  float: left;
+}
+.element-table__button {
+  width: 12px;
+  height: 12px;
+}
+.existence {
+  display: block;
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+}
+.existence__value {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  color: #6b6b6b;
+  float: left;
+}
+.existence-quantity {
+  width: 100%;
+  height: 10px;
+  float: left;
+}
+.existence-quantity__circle,
+.existence-quantity__circle_free {
+  background-color: #329696;
+  width: 8px;
+  height: 8px;
+  margin: 3px 3px 0;
+  border-radius: 4px;
+  float: left;
+}
+.existence-quantity__circle_free {
+  background-color: #cbcbcb;
 }

@@ -93,38 +93,6 @@
     text-align center
     vertical-align: middle;
 }
-.element-phone-info-existence {
-    width 100%
-    height 30px
-    float left
-}
-.element-phone-info-existence__value {
-    width 100%
-    height 15px
-    margin-bottom 5px
-    font-size 12px
-    text-align center
-    color $text_grey_color
-    float left
-}
-.element-phone-info-existence-quantity {
-    width 70px
-    height 10px
-    margin 0 9px
-    float left
-}
-.element-phone-info-existence-quantity__circle {
-    background-color $quantity_circle_color
-    width 8px
-    height 8px
-    margin 3px 3px 0
-    border-radius 4px
-    float left
-}
-.element-phone-info-existence-quantity__circle_free {
-    @extend .element-phone-info-existence-quantity__circle
-    background-color $quantity_circle_free_color
-}
 .element-phone__button {
     width 16px
     height 16px
@@ -167,4 +135,64 @@
 }
 .element__buy:hover {
     background-color $button_hover_color
+}
+
+.element-table {
+    @extend .element-phone
+    width 118px
+}
+.element-table__speaker {
+    width 2px
+    height 2px
+    margin 10px
+    border 1px solid $element_border_color
+    border-radius 2px
+    float left
+}
+.element-table-info {
+    @extend .element-phone-info
+}
+.element-table-info-name {
+    @extend .element-phone-info-name
+}
+.element-table-info-name__value {
+    @extend .element-phone-info-name__value
+}
+.element-table__button {
+    @extend .element-phone__button
+    width 12px
+    height 12px
+}
+
+.existence {
+    display block
+    width 70px
+    height 30px
+    margin 0 auto
+}
+.existence__value {
+    width 100%
+    height 15px
+    margin-bottom 5px
+    font-size 12px
+    text-align center
+    color $text_grey_color
+    float left
+}
+.existence-quantity {
+    width 100%
+    height 10px
+    float left
+}
+.existence-quantity__circle {
+    background-color $quantity_circle_color
+    width 8px
+    height 8px
+    margin 3px 3px 0
+    border-radius 4px
+    float left
+}
+.existence-quantity__circle_free {
+    @extend .existence-quantity__circle
+    background-color $quantity_circle_free_color
 }
